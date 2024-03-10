@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.door {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(73, 0, 69);
+    margin: 10px;
+    font-size: 100px;
+    color: rgb(202, 135, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

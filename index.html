@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventskalender</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<script>
+
+function insertDoors() {
+    for (let i = 1; i < 25; i++) {
+        document.getElementById('calendar').innerHTML += `<div class="door">${i}</div>`;
+    } 
+}
+
+</script>
+
+<body id="calendar" onload="insertDoors()">
+  
+</body>
+</html>
